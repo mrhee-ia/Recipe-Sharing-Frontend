@@ -1,0 +1,105 @@
+[
+    {
+        "id": "1",
+        "recipe": "Adobo",
+        "category": "Dinner",
+        "description": "Usually made with meat (chicken, pork, or beef) marinated in vinegar, soy sauce, garlic, and other spices.",
+        "media": "https://www.eatingwell.com/thmb/YrI10pp9V6quKr98nscc_XFQ02g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5147351-a7e0a28fde814b40bdcc67075e933b96.jpg",
+        "ingredients": "2 tablespoons vegetable oil, 1 (3 pound) chicken, cut into pieces, 1 large onion, quartered and sliced, 2 tablespoons minced garlic, 2/3 cup low sodium soy sauce, 1/3 cup white vinegar, 1 tablespoon garlic powder, 2 teaspoons black pepper, and 1 bay leaf.",
+        "procedure": [
+            {"step1": "Heat vegetable oil in a large skillet over medium-high heat. Cook chicken pieces until golden brown, 2 to 3 minutes per side. Transfer chicken to a plate and set aside."},
+            {"step2": "Add onion and garlic to the skillet; cook until softened and brown, about 6 minutes."},
+            {"step3": "Pour in soy sauce and vinegar and season with garlic powder, black pepper, and bay leaf."},
+            {"step4": "Return chicken to pan, increase heat to high, and bring to a boil. Reduce heat to medium-low, cover, and simmer until chicken is tender and cooked through, 35 to 40 minutes."}
+        ],
+        "likes": 71,
+        "comments": 45
+    },
+    {
+        "id": "2",
+        "recipe": "Pancake",
+        "category": "Breakfast",
+        "description": "This pancake recipe produces thick, fluffy, and all-around delicious pancakes with just a few ingredients that are probably already in your kitchen.",
+        "media": "https://www.allrecipes.com/thmb/WqWggh6NwG-r8PoeA3OfW908FUY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21014-Good-old-Fashioned-Pancakes-mfs_001-1fa26bcdedc345f182537d95b6cf92d8.jpg",
+        "ingredients": "Flour, Baking powder, Sugar, Salt, Milk, Butter, and Egg.",
+        "procedure": [
+            {"step01": "Sift the dry ingredients together."},
+            {"step02": "Make a well, then add the wet ingredients. Stir to combine."},
+            {"step03": "Scoop the batter onto a hot griddle or pan."},
+            {"step04": "Cook for two to three minutes, then flip. Your pancake will tell you when it's ready to flip. Wait until bubbles start to form on the top and the edges look dry and set. This will usually take about two to three minutes on each side."},
+            {"step05": "Continue cooking until brown on both sides."}
+        ],
+        "likes": 39,
+        "comments": 12
+    },
+    {
+        "id": "3",
+        "recipe": "Leche Flan",
+        "category": "Dessert",
+        "description": "A baked custard with a layer of caramel on top. It is a sweet dish traditionally served as dessert at parties, fiestas, and other special occasions.",
+        "media": "https://wildflourtogo.com/cdn/shop/products/DSCF8007_8c67f001-3a9f-48fe-b8a3-c208db35f987.jpg?v=1601056452",
+        "ingredients": "Caramel: 1 cup sugar and 3/4 cup water. Custard: 1 (13 ounce) can evaporated milk, 1 (13 ounce) can sweetened condensed milk, 12 egg yolks, and 1 tablespoon vanilla extract.",
+        "procedure": [
+            {"caramel": "Combine sugar and water in a saucepan over medium-high heat. Bring to a boil without stirring to avoid the mixture crystallizing. Continue to boil, swirling the pan occasionally, until sugar syrup begins to brown, 7 to 10 minutes. Reduce the heat to medium low and watch the color. Once the caramel is a deep brown, immediately pour it into a flan mold. Carefully tilt the mold to make sure the whole bottom surface is covered."},
+            {"custard": "Combine evaporated milk, condensed milk, egg yolks, and vanilla extract in a large bowl. Stir lightly to prevent bubbles or foam from forming. Strain batter slowly into the caramel-lined flan mold. Cover with aluminum foil."},
+            {"flan1": "Place a baking dish large enough to hold the flan mold on the oven rack. Set the covered flan in the baking dish and add enough hot water to come halfway up the side of the mold."},
+            {"flan2": "Bake in the preheated oven until firm, about 1 hour. Carefully remove the flan mold from the oven. Let cool, about 30 minutes. Run a paring knife around the edges of the flan. Cover the mold with a rimmed platter and carefully flip it over to release the flan from the mold for serving."}
+        ],
+        "likes": 96,
+        "comments": 40
+    },
+    {
+        "id": "4",
+        "recipe": "Garlic-Buttered Shrimp",
+        "category": "Seafood",
+        "description": "Simply made of Shrimp, garlic, butter, and lemon soda.",
+        "media": "https://yummykitchentv.com/wp-content/uploads/2023/02/garlic-buttered-shrimp-500x500.jpg",
+        "ingredients": "Flour, Baking powder, Sugar, Salt, Milk, Butter, and Egg.",
+        "procedure": [
+            {"step-1": "Start by cleaning the shrimp. Wash it thoroughly and cut the antennae as much as possible."},
+            {"step-2": "Marinate it in lemon soda. Let it sit for around 10 minutes before cooking."},
+            {"step-3": "Melt butter and add garlic. Cook in low heat until the garlic starts to brown a little."},
+            {"step-4": "Immediately throw-in shrimp on a skillet and cook over medium high heat while stirring occasionally."},
+            {"step-5": "Season the dish with salt and pepper (or magic sarap) and squeeze-in some lemon juice."}
+        ],
+        "likes": 25,
+        "comments": 58
+    },
+    {
+        "id": "5",
+        "recipe": "Lumpia Shanghai",
+        "category": "Lunch",
+        "description": "Lumpia Shanghai is a smaller, meatier type of egg roll. It's a very easy and yummy recipe that's great as finger food. Serve with sweet and sour sauce, soy sauce with lemon, or banana ketchup.",
+        "media": "https://www.maggi.ph/sites/default/files/styles/home_stage_944_531/public/srh_recipes/dc4e942c5b6ef61bc8c6c3a91bc00eb7.jpg?h=5f1b5b34&itok=228fAR5Z",
+        "ingredients": "1 pound ground pork, 1 pound ground beef, 1 medium onion, finely chopped, 1 carrot, grated, 1/4 cup soy sauce, 2 tablespoons salt, 1 1/2 tablespoons garlic powder, 2 1/2 teaspoons black pepper, 1 (16 ounce) package spring roll wrappers, 1/4 cup water, or as needed, and 1 1/2 quarts oil for frying",
+        "procedure": [
+            {"1st-step": "Combine ground pork, ground beef, onion, and carrot in a large bowl; mix well with hands. Gradually blend in soy sauce, salt, garlic powder, and pepper until incorporated."},
+            {"2nd-step": "Working one at a time, lay a wrapper on a flat surface with a corner pointing at you. Place about 2 tablespoons filling in a line, no thicker than your thumb, across the center of the wrapper. Moisten the edges of wrapper with water. Fold the bottom edge of wrapper snugly over filling. Fold in the left and right sides of wrapper towards the center. Roll up tightly to seal in filling."},
+            {"3rd-step": "Heat oil in a deep fryer or heavy skillet to 375 degrees F (190 degrees C)."},
+            {"4th-step": "Working in batches, fry lumpia in hot oil, turning once, until golden brown, 3 to 4 minutes. Drain on a paper towel-lined plate. Cut lumpia in half, or serve as-is with dipping sauce."}
+        ],
+        "likes": 71,
+        "comments": 23
+    },
+    {
+        "id": "6",
+        "recipe": "Star Bread",
+        "category": "Bread",
+        "description": "Star Bread, or more popularly called Putok is a sweet, dense bread that is a Filipino Panederia favorite commonly enjoyed for coffee or tea time.",
+        "media": "https://amiablefoods.com/wp-content/uploads/star-bread-buns-in-basket-810x1080.jpg",
+        "ingredients": "Egg wash: 1 large egg and 1 Tbsp milk. 4 cups bread flour or all-purpose flour, 1/2 cup milk powder, 3/4 cup sugar, 1 teaspoon salt, 1 3/4 cup lukewarm water, 1 teaspoon instant yeast, and 1/4 cup unsalted butter or margarine softened to room temperature.",
+        "procedure": [
+            {"1": "Combine bread flour, mik powder, sugar, and salt in a large mixing bowl and mix until well distributed. Make a well in the center."},
+            {"2": "Pour in ¾ cup lukewarm water then sprinkle the instant yeast over the water. Using a wooden spoon, stir the water to moisten the yeast."},
+            {"3": "Add the softened butter then slowly fold in the rest of the flour mixture with the liquid to create a dense dough."},
+            {"4": "Knead for 7-10 minutes until the dough becomes smooth. If the dough is too dry when you start to knead add a bit more water, a tablespoon at a time then knead to check again. Do NOT add too much water. The dough has to be dense, it will not be elastic but it should be smooth."},
+            {"5": "Transfer the dough to a greased bowl, cover with a plastic wrap and let it rest for 1 hour in a warm place."},
+            {"6": "Divide the dough into 20 pieces or about 50 grams each. Shape them into balls and arrange them on a baking tray lined with parchment paper."},
+            {"7": "Using a kitchen scissor, snip the top with 2 intersecting lines to form a cross. Cover with a tea towel and let it rest again for 30 minutes. Expect that they will not rise much."},
+            {"8": "Brush each piece with egg wash and sprinkle with sugar. Bake in a pre-heated oven at 180°C/350°F for 18-20 minutes or until top becomes golden"},
+            {"9": "Take the star bread from the oven and transfer them to a bread basket or plate and enjoy with a cup of hot beverage."}
+        ],
+        "likes": 11,
+        "comments": 26
+    }
+]
