@@ -1,6 +1,7 @@
 [
     {
         "id": "1",
+        "recipe_user": "blabberbast",
         "recipe": "Adobo",
         "category": "Dinner",
         "description": "Usually made with meat (chicken, pork, or beef) marinated in vinegar, soy sauce, garlic, and other spices.",
@@ -17,6 +18,7 @@
     },
     {
         "id": "2",
+        "recipe_user": "blabberbast",
         "recipe": "Pancake",
         "category": "Breakfast",
         "description": "This pancake recipe produces thick, fluffy, and all-around delicious pancakes with just a few ingredients that are probably already in your kitchen.",
@@ -34,6 +36,7 @@
     },
     {
         "id": "3",
+        "recipe_user": "areeyahs",
         "recipe": "Leche Flan",
         "category": "Dessert",
         "description": "A baked custard with a layer of caramel on top. It is a sweet dish traditionally served as dessert at parties, fiestas, and other special occasions.",
@@ -50,6 +53,7 @@
     },
     {
         "id": "4",
+        "recipe_user": "areeyahs",
         "recipe": "Garlic-Buttered Shrimp",
         "category": "Seafood",
         "description": "Simply made of Shrimp, garlic, butter, and lemon soda.",
@@ -67,6 +71,7 @@
     },
     {
         "id": "5",
+        "recipe_user": "blabberbast",
         "recipe": "Lumpia Shanghai",
         "category": "Lunch",
         "description": "Lumpia Shanghai is a smaller, meatier type of egg roll. It's a very easy and yummy recipe that's great as finger food. Serve with sweet and sour sauce, soy sauce with lemon, or banana ketchup.",
@@ -83,6 +88,7 @@
     },
     {
         "id": "6",
+        "recipe_user": "areeyahs",
         "recipe": "Star Bread",
         "category": "Bread",
         "description": "Star Bread, or more popularly called Putok is a sweet, dense bread that is a Filipino Panederia favorite commonly enjoyed for coffee or tea time.",
