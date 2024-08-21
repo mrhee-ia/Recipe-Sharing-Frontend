@@ -1,11 +1,15 @@
 import { useState } from 'react'
+import MainLayout from './layouts/MainLayout'
 import CardContainer from './components/CardContainer'
 
 function App() {
 
   return (
     <>
-      <CardContainer/>
+      <MainLayout>
+        {/* Main Feed */}
+        <CardContainer/>
+      </MainLayout>
     </>
   )
 }
