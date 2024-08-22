@@ -18,24 +18,24 @@ const CardContent = ({food}) => {
                     <CardMedia media={food.media}/>
                 </div>
                 <div className='m-2'>
-                    <h3 className='mb-2 text-xl font-bold'>{food.recipe}</h3>
-                    <div className='mb-2 text-sm'>{description + " "}
+                    <h3 className='mb-1 text-xl font-bold'>{food.recipe}</h3>
+                    <p className='mb-2 text-sm'>{description + " "}
                         <button
                             className='text-green-600 hover:text-green-800'
                             onClick={() => setFullView( (prevState)=>!prevState )}>
                             { fullView ? 'view less' : 'read more'}
                         </button>
-                    </div>
+                    </p>
                 </div>
                 <div className='mb-4 border border-gray-100'></div>
                 <div className='mr-2 ml-2 flex flex-col lg:flex-row justify-between'>
-                    <div className='mb-2 text-green-700'>
-                        <button><FaThumbsUp className='inline text-md mb-2 mr-2'/>
+                    <div className='mb-1 text-green-700'>
+                        <button><FaThumbsUp className='inline text-md mb-2 mr-1'/>
                             <span className='text-sm'>{food.likes} Likes</span>
                         </button>
                     </div>
-                    <div className='mb-2 text-blue-700'>
-                        <button><FaComments className='inline text-md mb-2 mr-2'/>
+                    <div className='mb-1 text-blue-700'>
+                        <button><FaComments className='inline text-md mb-1 mr-1'/>
                             <span className='text-sm'>{food.comments} Comments</span>
                         </button>
                     </div>
