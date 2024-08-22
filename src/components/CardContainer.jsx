@@ -3,8 +3,8 @@ import CardContent from './CardContent'
 
 const CardContainer = () => {
   return (
-    <section className="bg-yellow-50 px-4 py-10">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+    <section className="bg-yellow-50 p-4">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           {/* <!-- Recipe Card --> */}
           {foods.map((food) => (
               <CardContent key={food.id} food={food}/>

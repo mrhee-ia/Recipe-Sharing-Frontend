@@ -12,7 +12,7 @@ const CardContent = ({food}) => {
 
     return (
         <div className='bg-white rounded-xl shadow-md relative'>
-            <div className='p-4'>
+            <div className='p-3'>
                 <div className='mb-2 ml-2 text-gray-400'>{food.category}</div>
                 <div className='mb-4 px-4'>
                     <CardMedia media={food.media}/>
@@ -27,15 +27,15 @@ const CardContent = ({food}) => {
                         </button>
                     </div>
                 </div>
-                <div className='mb-5 border border-gray-100'></div>
+                <div className='mb-4 border border-gray-100'></div>
                 <div className='mr-2 ml-2 flex flex-col lg:flex-row justify-between'>
                     <div className='mb-2 text-green-700'>
-                        <button><FaThumbsUp className='inline text-xl mb-2 mr-2'/>
+                        <button><FaThumbsUp className='inline text-md mb-2 mr-2'/>
                             <span className='text-sm'>{food.likes} Likes</span>
                         </button>
                     </div>
-                    <div className='mb-2 text-blue-600'>
-                        <button><FaComments className='inline text-xl mb-2 mr-2'/>
+                    <div className='mb-2 text-blue-700'>
+                        <button><FaComments className='inline text-md mb-2 mr-2'/>
                             <span className='text-sm'>{food.comments} Comments</span>
                         </button>
                     </div>
