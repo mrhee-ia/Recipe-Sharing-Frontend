@@ -3,7 +3,7 @@ const Header = () => {
     <header className="flex justify-between items-center p-4 bg-indigo-500 text-white">
       {/* Left Side (Logo) */}
       <div className="flex items-center space-x-4">
-        <img src="https://i.pinimg.com/originals/78/24/70/782470772ec88649090e1d5054259629.jpg" alt="Logo" className="h-10 rounded-3xl"/>
+        <img src="https://i.pinimg.com/originals/78/24/70/782470772ec88649090e1d5054259629.jpg" alt="Logo" className="h-10"/>
         <span className="text-xl font-semibold">RecipeSpree</span>
       </div>
       {/* Right Side (Search) */}
