@@ -27,7 +27,7 @@ const CardContent = ({food}) => {
                         </button>
                     </p>
                 </div>
-                <div className='mb-4 border border-gray-100'></div>
+                <div className='mb-4 border border-gray-200'></div>
                 <div className='mr-2 ml-2 flex flex-col lg:flex-row justify-between'>
                     <div className='mb-1 text-green-700'>
                         <button><FaThumbsUp className='inline text-md mb-2 mr-1'/>

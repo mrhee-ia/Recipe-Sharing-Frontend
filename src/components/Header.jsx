@@ -7,8 +7,12 @@ const Header = () => {
         <span className="text-xl font-semibold">RecipeSpree</span>
       </div>
       {/* Right Side (Search) */}
-      <div className="flex items-center">
-        <input type="text" placeholder="Search..." className="px-4 py-2 rounded-md border border-gray-400 bg-white" />
+      <div className="flex items-center rounded-[50px] p-0.5 bg-gradient-to-r from-green-500 to-blue-500">
+        <input
+          type="text"
+          placeholder="Search..."
+          className="px-4 py-2 rounded-[50px] bg-white text-black"
+        />
       </div>
     </header>
   )
