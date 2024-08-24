@@ -9,13 +9,13 @@ const NavBar = () => {
 
   return (
     <aside className="w-1/5 py-4 mr-5 border-r-2 border-gray-300">
-      <div className="flex flex-col items-center mb-4">
-        <div className="mb-4">
+      <div className="flex flex-col items-center pt-2 mb-6">
+        <div className="mb-2 p-0.5 w-21 h-21 rounded-full bg-gradient-to-r from-green-500 to-blue-500">
           <img src="https://cdn.icon-icons.com/icons2/3150/PNG/512/user_profile_female_icon_192701.png" alt="User Profile" 
-            className="w-24 h-24 rounded-full object-cover" />
+            className="w-20 h-20 rounded-full object-cover" />
         </div>
         <div className="text-center">
-          <p className="text-white text-md">@areeyahs</p>
+          <p className="text-white text-sm mb-1">@areeyahs</p>
           <p className="text-white text-sm">Ma. Cristina M. Pasague</p>
         </div>
       </div>

@@ -17,9 +17,9 @@ const CardContent = ({food}) => {
                 <div className='mb-4 px-4'>
                     <CardMedia media={food.media}/>
                 </div>
-                <div className='m-2'>
-                    <h3 className='mb-1 text-xl font-bold'>{food.recipe}</h3>
-                    <p className='mb-2 text-sm'>{description + " "}
+                <div className='m-2 w-full h-30 overflow-hidden'>
+                    <p className='text-md font-bold'>{food.recipe}</p>
+                    <p className='text-sm'>{description + " "}
                         <button
                             className='text-green-600 hover:text-green-800'
                             onClick={() => setFullView( (prevState)=>!prevState )}>

@@ -1,14 +1,11 @@
 import CardContainer from './CardContainer';
+import CardsHeading from './CardsHeading';
 
 const MostLiked = () => {
-  const url = '/foods?likes_gte=70'
+  const url = '/foods?likes_gte=30'
   return (
     <>
-      <div className="flex items-center mt-2 mb-2">
-        <div className="flex-1"></div>
-        <h3 className="px-6 text-white text-xl">Most Liked Recipes</h3>
-        <div className="flex-1"></div>
-      </div>
+      <CardsHeading title='Most Liked Recipes'/>
       <CardContainer url={url} />
     </>
   );
