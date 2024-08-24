@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import CardContent from './CardContent'
 
-const CardContainer = () => {
+const CardContainer = ({url = '/foods'}) => {
 
   const [foods, setFoods] = useState([])
 
@@ -9,7 +9,7 @@ const CardContainer = () => {
     () => {
       const fetchData = async () => {
         try {
-          const response = await fetch('/api/foods')
+          const response = await fetch(`/api${url}`)
           const jsonData = await response.json()
           setFoods(jsonData)
         } catch (error) {
@@ -17,11 +17,11 @@ const CardContainer = () => {
         }
       };
       fetchData();
-    }, []
+    }, [url]
   )
 
   return (
-    <section className="bg-indigo-500 p-4">
+    <section className="p-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           {/* <!-- Recipe Card --> */}
           {foods.map((food) => (

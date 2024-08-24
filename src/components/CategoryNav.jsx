@@ -25,7 +25,7 @@ const categories = [
 
 const CategoryNavBar = ( {onCategorySelect} ) => {
   return (
-    <div className="w-full h-16 overflow-x-auto whitespace-nowrap bg-indigo-500 py-2 pb-12 scrollbar-hide">
+    <div className="w-full h-15 overflow-x-auto whitespace-nowrap py-2 scrollbar-hide">
       <div className="inline-flex space-x-2 px-4">
         {categories.sort().map((category, index) => (
           <button

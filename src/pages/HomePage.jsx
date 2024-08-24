@@ -7,10 +7,13 @@ import '../components/components.css'
 const HomePage = () => {
   return (
     <div className="flex flex-col h-full overflow-hidden">
-        <Hero/>
-        <CategoryNav/>
+        <div className='mt-1 mb-1'>
+          <Hero/>
+          <CategoryNav/>
+        </div>
         <div className="overflow-y-auto scrollbar-hide">
-            <CardContainer/>
+          <MostLiked/>
+          <CardContainer/>
         </div>
     </div>
   )
