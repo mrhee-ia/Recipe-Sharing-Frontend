@@ -13,6 +13,11 @@ const HomePage = () => {
         </div>
         <div className="overflow-y-auto scrollbar-hide">
           <MostLiked/>
+          <div className="flex items-center mt-2 mb-2">
+            <div className="flex-1"></div>
+            <h3 className="px-6 text-white text-xl">Browse Recipes</h3>
+            <div className="flex-1"></div>
+          </div>
           <CardContainer/>
         </div>
     </div>

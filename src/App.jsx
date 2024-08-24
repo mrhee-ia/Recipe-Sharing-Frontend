@@ -12,7 +12,11 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<MainLayout/>}>
       <Route index element={<HomePage/>} />
+      <Route path='user-profile' element={<MyRecipesPage/>} />
       <Route path='/my-recipes' element={<MyRecipesPage/>} />
+      <Route path='liked-recipes' element={<MyRecipesPage/>} />
+      <Route path='notifications' element={<MyRecipesPage/>} />
+      <Route path='settings' element={<MyRecipesPage/>} />
     </Route>
   )
 )
