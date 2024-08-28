@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="flex justify-between items-center p-4 text-white">
+    <header className="flex justify-between items-center p-6 text-white">
       {/* Left Side (Logo) */}
       <div className="flex items-center space-x-2">
         <img src="https://i.pinimg.com/originals/78/24/70/782470772ec88649090e1d5054259629.jpg" alt="Logo" className="w-10 h-10 rounded-full object-cover"/>

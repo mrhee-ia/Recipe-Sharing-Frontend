@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import CardContent from './CardContent'
 
@@ -25,7 +26,9 @@ const CardContainer = ({url = '/foods'}) => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           {/* <!-- Recipe Card --> */}
           {foods.map((food) => (
-              <CardContent key={food.id} food={food}/>
+              <Link to={`/foods/${food.id}`}>
+                <CardContent key={food.id} food={food}/>
+              </Link>
           ))}
         </div>
     </section>

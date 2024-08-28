@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         brown: {
-          600: '#A52A2A'
+          500: '#A52A2A'
         }
       }
     }

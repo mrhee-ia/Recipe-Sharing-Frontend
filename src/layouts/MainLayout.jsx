@@ -4,7 +4,7 @@ import NavBar from "../components/NavBar";
 
 const MainLayout = () => {
   return (
-    <div className='flex flex-col h-screen bg-gradient-to-r from-orange-700 to-brown-600'>
+    <div className='flex flex-col h-screen bg-gradient-to-r from-orange-700 to-brown-500'>
         <Header/>
         <div className="flex flex-grow overflow-hidden">
           <NavBar/>

@@ -1,14 +1,9 @@
-import React, {useState} from 'react'
 import {FaThumbsUp, FaComments} from 'react-icons/fa'
 import CardMedia from './CardMedia'
 
 const CardContent = ({food}) => {
 
-    const [fullView, setFullView] = useState(false)
-    let description = food.description
-    if (!fullView) {
-        description = description.substring(0, 101) + "..."
-    }
+    let description = food.description.substring(0, 101) + "..."
 
     return (
         <div className='bg-white rounded-xl shadow-md relative'>
@@ -20,11 +15,7 @@ const CardContent = ({food}) => {
                 <div className='m-2 w-full h-30 overflow-hidden'>
                     <p className='text-md font-bold'>{food.recipe}</p>
                     <p className='text-sm'>{description + " "}
-                        <button
-                            className='text-green-600 hover:text-green-800'
-                            onClick={() => setFullView( (prevState)=>!prevState )}>
-                            { fullView ? 'view less' : 'read more'}
-                        </button>
+                        <span className='text-green-600 hover:text-green-800'>read more</span>
                     </p>
                 </div>
                 <div className='mb-4 border border-gray-200'></div>

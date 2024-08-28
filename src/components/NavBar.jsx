@@ -15,8 +15,8 @@ const NavBar = () => {
             className="w-20 h-20 rounded-full object-cover" />
         </div>
         <div className="text-center">
-          <p className="text-white text-sm mb-1">@areeyahs</p>
-          <p className="text-white text-sm">Ma. Cristina M. Pasague</p>
+          <p className="text-white text-md">Ma. Cristina M. Pasague</p>
+          <p className="text-white text-sm">@areeyahs</p>
         </div>
       </div>
       <nav className="space-y-2">
